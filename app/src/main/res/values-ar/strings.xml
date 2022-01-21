@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مختبر 2</string>
+    <string name="undo_string">الغاء التحميل</string>
+    <string name="look_at_my_gui">انظر إلي واجهة GUI</string>
+    <string name="button">زر</string>
+    <string name="check_this_out">تحقق من هذا!</string>
+    <string name="switch_on_off">تشغيل / إيقاف</string>
+    <string name="type_here">أكتب هنا...</string>
+    <string name="switch_text">\"التبديل الآن\"</string>
+    <string name="on">تشغيل</string>
+    <string name="off">إيقاف</string>
+</resources>
