@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_grid);
+        setContentView(R.layout.activity_main_linear);
 
 
         btn = findViewById(R.id.mybtn);
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 }else{
                     onoff = getString(R.string.off);
                 }
-                Snackbar mySnackbar = Snackbar.make(findViewById(R.id.content),
+                Snackbar mySnackbar =  Snackbar.make(findViewById(R.id.content),
                         getString(R.string.switch_text)+ onoff, Snackbar.LENGTH_SHORT);
                 mySnackbar.setAction(R.string.undo_string, click -> cb.setChecked(!b));
                 mySnackbar.show();
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "This is toast message.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Here is more information", Toast.LENGTH_SHORT).show();
             }
         });
     }
